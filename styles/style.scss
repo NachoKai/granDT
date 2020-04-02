@@ -3,7 +3,7 @@
 	margin: 0;
 	outline: 0;
 	padding: 0;
-	transition: all 0.2s ease;
+	transition: all 0.1s ease;
 }
 
 html,
@@ -170,14 +170,11 @@ a {
 .tg {
 	background: #fff;
 	color: #000;
-}
-
-.th {
-	min-height: 50px !important;
+	overflow-x: scroll !important;
+	overflow-y: scroll !important;
 }
 
 .tg-0lax {
-	min-height: 50px !important;
 	text-align: center;
 	font-size: 0.8rem;
 }
