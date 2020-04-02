@@ -160,6 +160,21 @@ a {
   font-size: 1.5rem !important;
   font-weight: bold;
   color: #fff;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-brand .far {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+.navbar-toggler {
+  padding: 0 !important;
 }
 
 .nav-link {

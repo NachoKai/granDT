@@ -117,6 +117,17 @@ a {
 	font-size: 1.5rem !important;
 	font-weight: bold;
 	color: #fff;
+	display: flex !important;
+	align-items: center;
+
+	.far {
+		font-size: 2.5rem;
+		margin-right: 10px;
+	}
+}
+
+.navbar-toggler {
+	padding: 0 !important;
 }
 
 .nav-link {
