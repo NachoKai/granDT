@@ -200,8 +200,6 @@ a {
       -ms-flex-align: center !important;
           align-items: center !important;
   text-align: left;
-  max-height: 40px;
-  min-height: 30px;
   padding: 0 0 0 10px !important;
   font-size: 0.9rem;
 }
@@ -224,8 +222,13 @@ a {
   color: #000;
 }
 
+.th {
+  min-height: 50px !important;
+}
+
 .tg-0lax {
-  text-align: start;
+  min-height: 50px !important;
+  text-align: center;
   font-size: 0.8rem;
 }
 
