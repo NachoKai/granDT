@@ -1,39 +1,239 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>Titulo</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<link rel="shortcut icon" href="" />
-		<link rel="stylesheet" href="styles/normalize.css" />
-		<link rel="stylesheet" href="styles/style.css" />
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-			crossorigin="anonymous"
-		/>
-		<script src="https://kit.fontawesome.com/429b57eee3.js" crossorigin="anonymous"></script>
-	</head>
 
-	<body>
-		<h1>Pequeño DT</h1>
+<head>
+    <title>Pequeño DT</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/429b57eee3.js" crossorigin="anonymous"></script>
+</head>
 
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-			crossorigin="anonymous"
-		></script>
-		<script src="src/main.js"></script>
-	</body>
+<body class="text-white">
+    <div class="container text-white">
+        <div class="row mb-1">
+            <div class="nav-up col-lg-12">
+                <nav class="p-3 navbar navbar-expand-lg navbar-dark text-white">
+                    <a class="navbar-brand" href="#">Pequeño DT</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Inicio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mi Equipo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Usuario
+                                </a>
+                                <div class="bg-light dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="text-dark dropdown-item" href="#">Perfil</a>
+                                    <a class="text-dark dropdown-item" href="#">Configuraciones</a>
+                                    <a class="text-dark dropdown-item" href="#">Cerrar Sesion</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row mid">
+            <div class="my-2 mid-col col-lg-6  text-white">
+                <div class="row mb-3">
+                    <div class="text-info title-mid col-lg-12">LISTA DE JUGADORES</div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg buscador">
+
+                        <div class="filtro p-1 m-1"><label for="club"><strong>Club</strong></label>
+                            <select class="form-control-sm" id="club">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+
+                        <div class="filtro p-1 m-1"><label for="puesto"><strong>Puesto</strong></label>
+                            <select class="form-control-sm" id="club">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+
+                        <div class="filtro p-1 m-1"><label for="cotizacion">
+                                <strong>Cotizacion</strong></label>
+                            <select class="form-control-sm" id="club">
+                                <option>Mínimo</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            Hasta
+                            <select class="form-control-sm" id="club">
+                                <option>Máximo</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+
+                        <div class="filtro p-1 m-1">
+                            <div class="busqueda-container">
+                                <label for="apellido"><strong class="apellido">Apellido</strong></label>
+                                <form class="form-inline d-flex  md-form form-sm mt-0">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                    <input class="form-control form-control-sm ml-3 w-75" type="text"
+                                        aria-label="Buscar">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="lista-jugadores shadow">
+                            <ul class="list-group">
+                                <li class="list-group-item active">Lista Jugadores</li>
+                                <li class="list-group-item text-dark">Dapibus ac facilisis in</li>
+                                <li class="list-group-item text-dark">Morbi leo risus</li>
+                                <li class="list-group-item text-dark">Porta ac consectetur ac</li>
+                                <li class="list-group-item text-dark">Vestibulum at eros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-2 mid-col col-lg-6 text-white">
+                <div class="row mb-3">
+                    <div class="text-info title-mid col-lg-12">TU EQUIPO</div>
+                </div>
+                <div class="row mb-3">
+                    <div class="monto text-danger col-lg-6">
+                        <span>PODÉS GASTAR</span>
+                        <p>$<strong>000.000</strong></p>
+                    </div>
+                    <div class="monto text-success col-lg-6">
+                        <span>LLEVÁS GASTADO</span>
+                        <p>$<strong>000.000</strong></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 p-0">
+                        <div class="row grupo">
+                            <div class="lista-titulares shadow">
+                                <div class="lista-jugadores">
+                                    <ul class="list-group celdas p-1">
+                                        <li class="list-group-item active"><strong>Titulares</strong></li>
+                                        <li class="list-group-item text-dark">Dapibus ac facilisis in</li>
+                                        <li class="list-group-item text-dark">Morbi leo risus</li>
+                                        <li class="list-group-item text-dark">Porta ac consectetur ac</li>
+                                        <li class="list-group-item text-dark">Vestibulum at eros</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row grupo">
+                            <div class="lista-suplentes">
+                                <div class="lista-jugadores shadow">
+                                    <ul class="list-group celdas p-1">
+                                        <li class="list-group-item active"><strong>Suplentes</strong></li>
+                                        <li class="list-group-item text-dark">Dapibus ac facilisis in</li>
+                                        <li class="list-group-item text-dark">Morbi leo risus</li>
+                                        <li class="list-group-item text-dark">Porta ac consectetur ac</li>
+                                        <li class="list-group-item text-dark">Vestibulum at eros</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 p-0 card-equipo">
+                        <div class="equipo">
+                            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                                <div class="card-header">
+                                    <strong>Tu Formacion</strong>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">img</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="footer-bottom col-lg-12 text-white">
+                    <footer class="page-footer font-lgall blue pt-4">
+                        <div class="row">
+                            <div class="col-md-6 mt-md-0 mt-2">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium voluptatibus tenetur aut.
+                                </p>
+                            </div>
+                            <hr class="clearfix w-100 d-md-none pb-3" />
+                            <div class="col-md-3 mb-md-0 mb-3">
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Link 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 2</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 mb-md-0 mb-3">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Link 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Link 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-copyright text-center py-3">
+                            © 2020 Copyright •
+                            <a href="https://nachokai.github.io/granDT/">Pequeño DT</a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+        <script src="src/main.js"></script>
+</body>
+
 </html>

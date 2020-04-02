@@ -1,1 +1,158 @@
-/* No CSS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+html,
+body {
+  background-image: url(https://static.grandt.com.ar/gdt/imgs/v17/bgBuildTeam.jpg);
+  background-position: center -44px;
+  height: 100%;
+}
+
+.container {
+  padding-right: 0px !important;
+  min-height: 100vh;
+}
+
+.row {
+  width: 100%;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-col {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 200px;
+  width: 100%;
+}
+
+.monto {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.monto span {
+  font-size: 1.1rem;
+}
+
+.title-mid {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+a {
+  color: #fff !important;
+}
+
+.buscador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-control-sm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 110px;
+}
+
+.filtro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.busqueda-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.busqueda-container label {
+  margin: 0;
+}
+
+.busqueda-container .apellido {
+  margin-right: 10px;
+}
+
+.nav-up {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.grupo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.celdas {
+  text-align: start;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.footer-bottom {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lista-jugadores {
+  height: 100%;
+}
