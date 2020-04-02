@@ -192,12 +192,28 @@ a {
 }
 
 .list-group-item {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
   text-align: left;
-  max-height: 30px;
+  max-height: 40px;
+  min-height: 30px;
   padding: 0 0 0 10px !important;
   font-size: 0.9rem;
 }
 
 .equipo {
   max-width: 100%;
+}
+
+.card-header {
+  padding: 5px !important;
+}
+
+.fas,
+.far {
+  margin-right: 10px;
 }
