@@ -15,11 +15,8 @@ body {
 
 .container {
 	padding-right: 0px !important;
+	padding-left: 0px !important;
 	min-height: 100vh;
-}
-
-.row {
-	width: 100%;
 }
 
 .mid {
@@ -49,7 +46,7 @@ body {
 }
 
 .title-mid {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 }
 
@@ -78,6 +75,7 @@ a {
 }
 
 .busqueda-container {
+	min-width: 100% !important;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -107,9 +105,30 @@ a {
 }
 
 .footer-bottom {
+	min-width: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .lista-jugadores {
 	height: 100%;
+}
+
+.navbar-brand {
+	font-size: 1.5rem !important;
+	font-weight: bold;
+	color: #fff;
+}
+
+.nav-link {
+	color: rgba(255, 255, 255, 0.7) !important;
+	font-weight: bold;
+
+	&:hover {
+		color: rgba(255, 255, 255, 1) !important;
+	}
+}
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
 }
