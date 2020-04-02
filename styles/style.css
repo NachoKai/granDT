@@ -70,6 +70,7 @@ a {
 }
 
 .buscador {
+  padding: 0 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,6 +134,7 @@ a {
 }
 
 .grupo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,7 +146,6 @@ a {
 .celdas {
   text-align: start;
   min-width: 250px;
-  max-width: 250px;
 }
 
 .footer-bottom {
@@ -226,4 +227,9 @@ a {
 .tg-0lax {
   text-align: start;
   font-size: 0.8rem;
+}
+
+.lista {
+  width: 100%;
+  padding: 0 !important;
 }
