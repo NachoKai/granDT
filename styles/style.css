@@ -224,8 +224,8 @@ a {
 }
 
 .tg {
-  background: #fff;
-  color: #000;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
   overflow-x: scroll !important;
   overflow-y: scroll !important;
 }
