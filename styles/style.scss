@@ -206,3 +206,13 @@ tr {
 	background: #007bff !important;
 	color: #fff !important;
 }
+
+.dropdown-item {
+	color: #000 !important;
+	font-weight: bold !important;
+
+	&:hover {
+		background: #007bff !important;
+		color: #fff !important;
+	}
+}
