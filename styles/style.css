@@ -264,3 +264,8 @@ tr {
 .paginador a {
   color: #000 !important;
 }
+
+.page-link:hover {
+  background: #007bff !important;
+  color: #fff !important;
+}
