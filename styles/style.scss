@@ -1,3 +1,10 @@
+@import './navbar';
+
+.nav-up {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -88,11 +95,6 @@ a {
 	.apellido {
 		margin-right: 10px;
 	}
-}
-
-.nav-up {
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .grupo {
