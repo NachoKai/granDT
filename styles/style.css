@@ -1,34 +1,51 @@
-.nav-up {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+.navbar-brand {
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.nav-up {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+.navbar-brand:active {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  outline: 0;
+.navbar-brand .far {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+.navbar-toggler {
   padding: 0;
-  -webkit-transition: all 0.1s ease;
-  transition: all 0.1s ease;
 }
 
-html,
-body {
-  background-image: url(../img/bgBuildTeam.jpg);
-  background-position: center -44px;
-  height: 100%;
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 
-.container {
-  padding-right: 0px;
-  padding-left: 0px;
-  min-height: 100vh;
+.nav-link:hover {
+  color: white;
+}
+
+.nav-up {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown-item {
+  color: #000;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background: #007bff;
+  color: #fff;
 }
 
 .mid {
@@ -153,48 +170,8 @@ a {
   min-width: 250px;
 }
 
-.footer-bottom {
-  min-width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .lista-jugadores {
   height: 100%;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navbar-brand .far {
-  font-size: 2.5rem;
-  margin-right: 10px;
-}
-
-.navbar-toggler {
-  padding: 0;
-}
-
-.nav-link {
-  color: rgba(255, 255, 255, 0.7);
-  font-weight: bold;
-}
-
-.nav-link:hover {
-  color: white;
-}
-
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
 }
 
 .list-group-item {
@@ -217,15 +194,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 100%;
-}
-
-.card-header {
-  padding: 5px;
-}
-
-.fas,
-.far {
-  margin-right: 10px;
 }
 
 tr {
@@ -275,12 +243,44 @@ tr {
   color: #fff;
 }
 
-.dropdown-item {
-  color: #000;
-  font-weight: bold;
+.footer-bottom {
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.dropdown-item:hover {
-  background: #007bff;
-  color: #fff;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+html,
+body {
+  background-image: url(../img/bgBuildTeam.jpg);
+  background-position: center -44px;
+  height: 100%;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  min-height: 100vh;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.card-header {
+  padding: 5px;
+}
+
+.fas,
+.far {
+  margin-right: 10px;
 }

@@ -1,4 +1,45 @@
+.navbar-brand {
+	text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #fff;
+	display: flex;
+	align-items: center;
+
+	&:active {
+		text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
+	}
+
+	.far {
+		font-size: 2.5rem;
+		margin-right: 10px;
+	}
+}
+
+.navbar-toggler {
+	padding: 0;
+}
+
+.nav-link {
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: bold;
+
+	&:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+
 .nav-up {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdown-item {
+	color: #000;
+	font-weight: bold;
+
+	&:hover {
+		background: #007bff;
+		color: #fff;
+	}
 }

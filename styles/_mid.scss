@@ -1,0 +1,137 @@
+.mid {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.mid-col {
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	justify-content: center;
+	min-height: 200px;
+	width: 100%;
+}
+
+.monto {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+
+	span {
+		font-size: 1.1rem;
+	}
+}
+
+.title-mid {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+a {
+	color: #fff;
+}
+
+.buscador {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.form-control-sm {
+	display: flex;
+	align-items: center;
+	min-width: 110px;
+}
+
+.filtro {
+	display: flex;
+	display: flex;
+	flex-direction: column;
+}
+
+.busqueda-container {
+	min-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	label {
+		margin: 0;
+	}
+
+	.apellido {
+		margin-right: 10px;
+	}
+}
+
+.grupo {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.celdas {
+	text-align: start;
+	min-width: 250px;
+}
+
+.lista-jugadores {
+	height: 100%;
+}
+
+.list-group-item {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding: 0 0 0 10px;
+	font-size: 0.9rem;
+}
+
+.equipo {
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+}
+
+tr {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.tg {
+	overflow-y: hidden;
+	overflow-x: auto;
+	background: hsla(0, 0%, 0%, 0.5);
+	color: #fff;
+}
+
+.tg-0lax {
+	padding: 3px;
+	margin: 3px;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+.lista {
+	width: 100%;
+	padding: 0;
+}
+
+.paginador {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+	a {
+		color: #000;
+	}
+}
+
+.page-link:hover {
+	background: #007bff;
+	color: #fff;
+}
