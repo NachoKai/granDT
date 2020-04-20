@@ -4,4 +4,7 @@
 
 ### Diagrama de clases
 
+---
+
 ![Perrito](https://raw.githubusercontent.com/NachoKai/granDT/gh-pages/img/i-have-no-idea-what-im-doing-dog-1.jpg)
+![Diagrama](https://raw.githubusercontent.com/NachoKai/granDT/gh-pages/img/diagrama.png)
