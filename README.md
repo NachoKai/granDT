@@ -4,4 +4,4 @@
 
 ### Diagrama de clases
 
-![Perrito]('./img/i-have-no-idea-what-im-doing-dog-1.jpg')
+![Perrito](https://raw.githubusercontent.com/NachoKai/granDT/gh-pages/img/i-have-no-idea-what-im-doing-dog-1.jpg)
